@@ -8,3 +8,16 @@ h2 {
     font-size: 20px;
     text-align: center;
 }
+.connexion {
+    margin-top: 50px;
+    margin: auto;
+    padding: auto;
+}
+.connexion input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #00a2ff;
+    display: block;
+
+}
