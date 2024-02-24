@@ -41,9 +41,12 @@ h2 {
 .Seconnecter:hover {
     background-color: #cecccb;
 }
-.bouton {
+.bouton{
+    background-color: #00a2ff;
+    color: #050505;
     border: none;
-    display: block;
+    padding: 10px;  
+    border-radius: 5px;
 }
 .bouton:hover {
     color: #273b94;
