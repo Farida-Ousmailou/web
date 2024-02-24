@@ -11,16 +11,18 @@
         </header>
         <main>
             <section class="connexion">
-               <p>Veillez Vous connectez</p> 
+               <p class="paragraphe">Veillez Vous connectez à votre compte</p> 
                <form action="PytubeSaver1.html" method="post">
-                    <legend> Ici</legend>
-                    <input type="email" name="email" id=Vemail placeholder="Votre email" required>
                     <label for="Vemail">Saississez votre email</label>
+                    <input type="email" name="email" id=Vemail placeholder="Votre email" autofocus required>
+                    <label for="Vpassword">Entrez votre mot de passe</label>
                     <input type="password" name="password" id="Vpassword" placeholder="Mot de passe" required>
-                    <label for="Vpassword">Entrez votre mot de pass</label>
-                    <input type="submit" value="Se connecter">
-        
-                    <bottom> <a href="PytubeSaver1.html">Mot de passe oublié</a></bottom>
+                    <input type="submit" value="Se connecter" class="Seconnecter">
+                    <p>Vous avez oublié votre mot de passe?</p>
+                    <a href="PytubeSaver1.html">Mot de passe oublié</a>
+                    <p>Vous n'avez pas de compte?</p>
+                    <a class="bouton" href="PytubeSaver1.html">S'inscrire</a>
+                    
                </form>
             </section>
         </main>

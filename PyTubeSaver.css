@@ -12,6 +12,8 @@ h2 {
     color: #ff1100;
     font-size: 30px;
     text-align: center;
+    padding: 30px;
+    margin: auto;
 }
 .connexion {
     margin-top: 50px;
@@ -27,4 +29,27 @@ h2 {
     border: 1px solid #00a2ff;
     display: block;
 
+}
+.Seconnecter {
+    background-color: #00a2ff;
+    color: rgb(9, 9, 9);
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px; 
+}
+.Seconnecter:hover {
+    background-color: #cecccb;
+}
+.bouton {
+    border: none;
+    display: block;
+}
+.bouton:hover {
+    color: #273b94;
+}
+.paragraphe {
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
 }
