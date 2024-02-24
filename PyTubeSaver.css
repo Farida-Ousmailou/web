@@ -3,6 +3,7 @@ h1 {
     font-size: 30px;
     text-align: center;
 }
+
 h2 {
     color: #00a2ff;
     font-size: 20px;
@@ -48,12 +49,20 @@ h2 {
     border: none;
     padding: 10px;  
     border-radius: 5px;
+    text-decoration: none;
 }
 .bouton:hover {
-    color: #cecccb;
+    background-color: #cecccb;
 }
 .paragraphe {
     text-align: center;
     margin: 50px;
     padding: 10px;
+}
+
+.container{
+    display: flex;
+    
+    width: 10px;
+    gap: 20px;
 }
