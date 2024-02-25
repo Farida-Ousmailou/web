@@ -45,15 +45,29 @@ h2 {
 .Seconnecter:hover {
     background-color: #cecccb;
 }
-.bouton{
-    background-color: #00a2ff;
-    color: #050505;
-    border: none;
-    padding: 10px;  
-    border-radius: 5px;
-    text-decoration: none;
+nav#nav   {
+ background-color: bisque;
+ display: flex;
+ align-items: baseline;
+ width: 100%;
+
+    
 }
-.bouton:hover {
+nav#nav div{
+     padding: 1rem;
+    display: flex;
+    align-items: right;
+    position: relative;
+    margin-left: auto;
+}
+nav#nav div a{
+    color: #1747ad;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    margin-left: auto;
+}
+
+#btn_signup:hover {
     background-color: #cecccb;
 }
 .paragraphe {
