@@ -9,6 +9,12 @@ h2 {
     font-size: 20px;
     text-align: center;
 }
+section#section p {
+    color: #000;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+}
 .titre1 {
     color: #ff1100;
     font-size: 30px;
