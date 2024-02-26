@@ -1,7 +1,11 @@
+body {
+    background-color: #f3f3f3;
+}
 h1 {
     color: #ec140c;
     font-size: 30px;
     text-align: center;
+    padding: 30px;
 }
 
 h2 {
@@ -10,10 +14,13 @@ h2 {
     text-align: center;
 }
 section#section p {
+    display: block;
     color: #000;
     text-align: center;
     padding: 30px;
     margin: auto;
+    width: 400px;
+    height: 50px;
 }
 .titre1 {
     color: #ff1100;
