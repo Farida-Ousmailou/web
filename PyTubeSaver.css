@@ -104,6 +104,13 @@ nav#nav div a{
     header {
         padding: 10px 0;
     }
+    main {
+        padding: 10px;
+    }
+
+    #section {
+        padding: 15px;
+    }
 
     .connexion {
         padding: 10px;
@@ -114,5 +121,17 @@ nav#nav div a{
     input[type="password"],
     .Seconnecter {
         width: calc(100% - 20px);
+    }
+}
+@media only screen and (max-width: 480px) {
+    header {
+        font-size: 1.5rem;
+    }
+
+    .connexion {
+        border-radius: 0;
+    }
+      h1 {
+        font-size: 1.5rem;
     }
 }
