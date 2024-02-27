@@ -100,3 +100,19 @@ nav#nav div a{
     padding: 100px; 
     margin: auto;
 }
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px 0;
+    }
+
+    .connexion {
+        padding: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    .Seconnecter {
+        width: calc(100% - 20px);
+    }
+}
